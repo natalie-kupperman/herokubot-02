@@ -29,7 +29,7 @@ quote_list = ["We Will Do What Is Hard. We Will Achieve What Is Great. This Is A
 
 
 # Create function for tweeting
-def quote_it_up(quote):
+def quote_it_up():
 
     # Tweet the next quote
     api.update_status(quote)
@@ -41,5 +41,5 @@ def quote_it_up(quote):
 # Create a loop that tweets one quote per minute until
 # all of the quotes have been tweeted
 for quote in quote_list:
-    quote_it_up(quote)
+    quote_it_up()
     time.sleep(60)
