@@ -1,1 +1,1 @@
-worker: python QuoteBot_Solved.py
+worker: python heroku.py
