@@ -35,7 +35,7 @@ def quote_it_up(quote):
     api.update_status(quote)
 
     # Print success message
-    print("Tweeted successfully)
+    print("Tweeted successfully")
 
 
 # Create a loop that tweets one quote per minute until
